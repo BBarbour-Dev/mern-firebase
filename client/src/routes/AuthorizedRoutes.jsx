@@ -8,14 +8,14 @@ export default function UnauthorizedRoutes() {
       <AuthorizedNav />
       <Routes>
         <Route path="/" element={<DashboardPage />} />
-        {/* <Route
+        <Route
           path="*"
           element={
             <main>
               <p>Not found.</p>
             </main>
           }
-        /> */}
+        />
       </Routes>
     </Router>
   );
